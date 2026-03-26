@@ -1,8 +1,8 @@
 class Portcrush < Formula
   desc "Beautiful TUI port manager"
   homepage "https://github.com/arthurrmp/portcrush"
-  url "https://github.com/arthurrmp/portcrush/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9a0713800f9150e68fc8f69743215fb70ee4187c694d40c3b0a3d1029feadc17"
+  url "https://github.com/arthurrmp/portcrush/archive/refs/tags/v0.0.1.tar.gz"
+  sha256 "07bcd2778a3433bcefa102e2908c80efd2927639503d7f9cdc52e9f2ab4c02a5"
   license "MIT"
 
   depends_on "rust" => :build
