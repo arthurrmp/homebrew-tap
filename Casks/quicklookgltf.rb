@@ -12,10 +12,6 @@ cask "quicklookgltf" do
   app "QuickLookGLTF.app"
 
   postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/QuickLookGLTF.app"]
-    system_command "/usr/bin/open",
-                   args: ["#{appdir}/QuickLookGLTF.app"]
     system_command "/usr/bin/qlmanage", args: ["-r"]
   end
 
