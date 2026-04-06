@@ -1,6 +1,6 @@
 cask "quicklookgltf" do
   version "1.2.0"
-  sha256 "6199ace95878513175d43d16f3cbc1d5b00efe49b0c2ff0ade06bffba9b31bd5"
+  sha256 "d9ae3b9a96b5c14dd7255f9ee084f1c31334174a260fbfb1ac4bfc3c119dcbec"
 
   url "https://github.com/arthurrmp/QuickLookGLTF/releases/download/v#{version}/QuickLookGLTF.zip"
   name "QuickLookGLTF"
